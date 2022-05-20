@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.coding_1">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CODING1">
+        <activity
+            android:name=".ResetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".animation.activity_button_animation"
+            android:exported="false" />
+        <activity
+            android:name=".intentdataPass.FirstActivity"
+            android:exported="false" />
+        <activity
+            android:name=".intentdataPass.SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NoteEditorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NotepadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".shared.SharedDataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".shared.PhoneNumberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".shared.AddressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".shared.NameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListActivity"
+            android:exported="false" />
+        <activity android:name=".login" />
+        <activity android:name=".FragementActivity" />
+        <activity android:name=".Test" />
+        <activity android:name=".tabView.TabActivity" />
+        <activity android:name=".SignUp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

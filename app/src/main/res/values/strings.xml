@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CODING-1</string>
+    <string name="button">Button</string>
+    <string name="back">Back</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="type_the_user_name1">Type the user name...</string>
+    <string name="log_in">Log in</string>
+    <string name="type_the_user_name2">Type the user name...</string>
+    <string name="signup">SignUp</string>
+    <string name="type_the_user_name">type_the_user_name</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
